@@ -4,7 +4,7 @@ class Anagram
   attr_accessor :word, :matches
   
   def initialize(word)
-    @word = word.split("")
+    @word = word
     @matches = []
   end
   
